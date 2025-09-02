@@ -1,0 +1,29 @@
+{
+  "name": "rn-mathquiz",
+  "version": "1.0.3",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react-native-size-matters": "^0.4.2",
+    "react-native-webview": "^13.16.0"
+  }
+}
