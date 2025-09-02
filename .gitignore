@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -141,3 +142,6 @@ vite.config.ts.timestamp-*
 =======
 
 >>>>>>> d6919d0 (sixth commit2)
+=======
+
+>>>>>>> d6919d0e67ba279e6438a5fbb62b52c8d6311507
