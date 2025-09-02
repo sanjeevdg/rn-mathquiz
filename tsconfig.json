@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false,
+    "declarationDir": "lib/typescript",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES2017",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
+
+
+
