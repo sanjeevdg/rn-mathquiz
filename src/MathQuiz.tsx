@@ -13,7 +13,7 @@ type Props = {
 
 
 
-const MathQuiz: React.FC<Props> = ({ { questions }: Props }) => {
+const MathQuiz = ({ { questions }: Props }) => {
 
 //export default function MathQuiz({navigation,route}) {
 
