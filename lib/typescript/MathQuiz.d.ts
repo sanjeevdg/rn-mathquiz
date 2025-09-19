@@ -1,6 +1,2 @@
-import React from 'react';
-type Props = {
-    questions: any[];
-};
-declare const MathQuiz: React.FC<Props>;
+declare const MathQuiz: {};
 export default MathQuiz;
