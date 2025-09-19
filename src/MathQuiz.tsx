@@ -8,12 +8,12 @@ import { scale, verticalScale, moderateScale,moderateVerticalScale } from 'react
 //import {questions} from './questions';
 //import {questions_two} from '../data/questions_two';
 type Props = {
-  questions: any;
+  questions: any[];
 };
 
 
 
-const MathQuiz: React.FC<Props> = ({ questions }) => {
+const MathQuiz: React.FC<Props> = ({ { questions }: Props }) => {
 
 //export default function MathQuiz({navigation,route}) {
 
