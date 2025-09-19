@@ -5,15 +5,15 @@ import { WebView } from 'react-native-webview';
 
 import { scale, verticalScale, moderateScale,moderateVerticalScale } from 'react-native-size-matters';
 
-import {questions} from './questions';
+//import {questions} from './questions';
 //import {questions_two} from '../data/questions_two';
 type Props = {
-  questions: [];
+  questions: any;
 };
 
 
 
-const MathQuiz: React.FC<Props> = ({ }) => {
+const MathQuiz: React.FC<Props> = ({ questions }) => {
 
 //export default function MathQuiz({navigation,route}) {
 
