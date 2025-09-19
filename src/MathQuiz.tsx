@@ -26,7 +26,7 @@ const MathQuiz: React.FC<Props> = ( { questions }: Props ) => {
 
 const { height, width} = useWindowDimensions();
 
-const baseUrl ="file:///android_asset/";
+//const baseUrl ="file:///android_asset/";
 
 //const quizname = route?.params?.quizname;
 
@@ -235,20 +235,20 @@ const modifiedGetHtml = `<!DOCTYPE html>
     <meta name="viewport" 
           content="width=device-width, initial-scale=1">
 
-  <link href="bootstrap.min.css" 
-       rel="stylesheet" integrity=
-"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="bootstrap.bundle.min.js"
-            integrity=
-"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-            crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         </script>
     <link rel="stylesheet" href=
-"font-awesome.min.css">
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="jquery.mobile-1.5.0-alpha.1.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
 
-<script src="jquery-3.2.1.min.js"></script>
+
 
 
 <script>
@@ -262,11 +262,11 @@ const modifiedGetHtml = `<!DOCTYPE html>
 
 
 
-<script src="jquery.mobile-1.5.0-alpha.1.js"></script>
+<script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.js"></script>
 
 
 <script
-  src="MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 

@@ -5,11 +5,17 @@ To use MathQuiz component in your own project first,
 
 import {MathQuiz}   from "rn-mathquiz";
 
-**In node_modules/rn-mathquiz folder, replace questions.js with your own file. Make sure the format is exactly like it is now.**
+Then import your questions file like so
+
+import {questions}  from '../questions'; // change location of wherever you put your questions file  
+
+A sample **questions.js** file can be found in the github repo 
+
+**https://github.com/sanjeevdg/rn-mathquiz/tree/main/src**
 
 Then just use the component like so 
 
- &lt; MathQuiz /&gt;
+ &lt; MathQuiz questions={questions} /&gt;
 
 This app is built with react native webview and MathJax.
 
